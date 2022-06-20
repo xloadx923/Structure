@@ -1,0 +1,15 @@
+.modal{
+    position: absolute;
+    z-index: 10;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 250px;
+    background-color: rgba(214, 23, 23, 0.5);
+    transition: 0.4s;
+    overflow:  hidden;
+}
+button:focus + .modal {
+    display: flex;
+}
